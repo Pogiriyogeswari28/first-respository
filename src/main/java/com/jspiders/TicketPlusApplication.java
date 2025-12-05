@@ -8,9 +8,9 @@ public class TicketPlusApplication {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("select the user type"+
-                "\n1.Admin"+
-                "\n2.Customer"+
-                "\n3.Exit");
+                "\n1️⃣ Admin"+
+                "\n2️⃣ Customer"+
+                "\n3️⃣ Exit");
         Integer user=sc.nextInt();
        switch (user){
            case 1:System.out.println(
