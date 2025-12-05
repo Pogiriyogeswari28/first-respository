@@ -14,9 +14,9 @@ public class TicketPlusApplication {
         Integer user=sc.nextInt();
        switch (user){
            case 1:System.out.println(
-                   "1.Add movie\n"+
-                           "2.Create Show\n" +
-                           "3.Exit");
+                   "1️⃣ Add movie\n"+
+                           "2️⃣ Create Show\n" +
+                           "3️⃣ Exit");
                AdminServiceImp adminService=new AdminServiceImp();
                Integer choice=sc.nextInt();
 
@@ -28,21 +28,13 @@ public class TicketPlusApplication {
                        System.out.println("create show");
                    }
                    default:break;
-
                }
+               break;
                case 2:{
                    System.out.println("customer");
                    break;
-
                }
-
-           default:System.exit(0);
-
-
+               default:System.exit(0);
        }
-
-
-
-
     }
 }
